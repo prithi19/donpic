@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
+:root{
+    --main-color:linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("backg.webp");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+.logobtn{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border: 0px solid transparent;
+    border-radius: 25px;
+    height:50px;
+    width:220px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+
+.menu ul{
+    left:850px;
+    top:46px;
+    position: absolute;
+    display: flex;
+}
+.menu ul li{    
+    font-size: 22px;
+    margin-left: 35px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    letter-spacing: 1.4px;
+    transition: 0.3s ease;
+}
+
+
+.home::before{
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg,#FC00FF 0%, #00DBDE 100%);    
+    border: 0px solid transparent;
+    border-radius: 25px;
+    top:-5px;
+    left:17px;
+    position: absolute;
+    content: "";
+    width:100px;
+    height:40px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.home:hover:before{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.about::before{
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg,#FC00FF 0%, #00DBDE 100%);    
+    border: 0px solid transparent;
+    border-radius: 25px;
+    top:-5px;
+    left:114px;
+    position: absolute;
+    content: "";
+    width:100px;
+    height:40px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.about:hover:before{
+    opacity: 1;
+    transition: 0.5s ease;
+} 
+
+.packages::before{
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg,#FC00FF 0%, #00DBDE 100%);    
+    border: 0px solid transparent;
+    border-radius: 25px;
+    top:-5px;
+    left:211px;
+    position: absolute;
+    content: "";
+    width:140px;
+    height:40px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.packages:hover:before{
+    opacity: 1;
+    transition: 0.5s ease;
+} 
+
+.contact::before{
+    background-color: #00DBDE;
+    background-image: linear-gradient(45deg,#FC00FF 0%, #00DBDE 100%);    
+    border: 0px solid transparent;
+    border-radius: 25px;
+    top:-5px;
+    left:346px;
+    position: absolute;
+    content: "";
+    width:120px;
+    height:40px;
+    z-index: -1;
+    opacity: 0;
+}
+
+.contact:hover:before{
+    opacity: 1;
+    transition: 0.5s ease;
+} 
+
+
+.Home-section{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+.line-first{
+    position: absolute;
+    left:70px;
+    top:200px;
+    font-size: 50px;
+    text-shadow: 5px 10px 10px rgb(53, 53, 53);
+}
+
+.line-second{
+    position: absolute;
+    left:70px;
+    top:270px;
+    font-size: 45px;
+    text-shadow: 5px 10px 10px rgb(53, 53, 53);
+}
+
+
+/*For Mobiles*/
+
+@media only screen and (max-width: 768px) {
+ 
+}
